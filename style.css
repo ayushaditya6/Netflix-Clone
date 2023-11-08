@@ -1,0 +1,155 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* overflow-y: hidden; */
+}
+.container{
+    background-image:radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url("netflix_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 14%;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.header button{
+    border: none;
+    outline: none;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 45px;
+}
+.content{
+    color:#ffffff;
+    width: 100%;
+    margin-left: 400px;
+    /* margin-top: 90px; */
+    width: fit-content;
+    height: 80vh;
+    text-align: center;
+    display: inline-block;
+}
+.content h1{
+    /* font-size: 50px; */
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    margin-top: 130px;
+}
+.content h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.content p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.email{
+    margin-left: 450px;
+}
+.email input{
+    padding-top: 10px;
+    /* padding-left: 90px; */
+    flex: 1;
+    border: 0;
+    outline: 0;
+    /* margin-left: 90px; */
+    margin-bottom: 70px;
+    padding-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    
+}
+.email button{
+    color: #ffffff;
+    background-color: red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.email button:hover{
+    background-color: rgb(207, 4, 4);
+}
+.feature{
+    background-color: black;
+    color: #ffffff;
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col, .img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    background-color: black;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
